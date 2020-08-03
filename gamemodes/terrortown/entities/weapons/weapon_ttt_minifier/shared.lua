@@ -14,9 +14,12 @@ if CLIENT then
 	hook.Add('Initialize', 'ttt2_minifier_init_language', function()
 		LANG.AddToLanguage('English', 'ttt2_weapon_minifier', 'Minifier')
 		LANG.AddToLanguage('Deutsch', 'ttt2_weapon_minifier', 'Verkleinerer')
+		LANG.AddToLanguage('Español', 'ttt2_weapon_minifier', 'Minificador')
+
 
 		LANG.AddToLanguage('English', 'ttt2_weapon_minifier_desc', 'Use this item to shrink the size of your own body!')
 		LANG.AddToLanguage('Deutsch', 'ttt2_weapon_minifier_desc', 'Nutze dieses Item um deine Körpergröße zu verringern!')
+		LANG.AddToLanguage('Español', 'ttt2_weapon_minifier_desc', '¡Usa este objeto para achicar tu cuerpo!')	
 	end)
 
 	SWEP.Author = 'Mineotopia'
